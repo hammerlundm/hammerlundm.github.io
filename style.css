@@ -1,6 +1,6 @@
 html {
     font-family: sans-serif;
-    font-size: 24pt;
+    font-size: calc(8pt + 1vw);
 }
 .container {
     display: flex;
@@ -9,11 +9,32 @@ html {
 .item {
     flex: 1 1 auto;
     text-align: center;
-    background: #37c;
     padding: 5px 10px;
     margin: 8px;
+}
+.jam {
+    background-color: #a5c;
+}
+.jam::before {
+    content: "Game Jam";
+}
+.personal {
+    background-color: #37c;
+}
+.personal::before {
+    content: "Personal";
+}
+.vgdc {
+    background-color: #285;
+}
+.vgdc::before {
+    content: "VGDC";
 }
 a {
     color: black;
     text-decoration: none;
+}
+img {
+    max-width: 100%;
+    max-height: 33vh;
 }
