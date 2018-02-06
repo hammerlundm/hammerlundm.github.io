@@ -18,17 +18,26 @@ html {
 .jam::before {
     content: "Game Jam";
 }
+.jam:hover {
+    background-color: #84b;
+}
 .personal {
     background-color: #37c;
 }
 .personal::before {
     content: "Personal";
 }
+.personal:hover {
+    background-color: #16a;
+}
 .vgdc {
     background-color: #285;
 }
 .vgdc::before {
     content: "VGDC";
+}
+.vgdc:hover {
+    background-color: #164;
 }
 a {
     color: black;
