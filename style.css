@@ -24,9 +24,6 @@ html {
 .personal {
     background-color: #37c;
 }
-.personal::before {
-    content: "Personal";
-}
 .personal:hover {
     background-color: #16a;
 }
